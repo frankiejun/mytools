@@ -28,8 +28,8 @@ if [ -n "$UPDATE_AVAILABLE" ]; then
 
     # 检查是否存在旧版本，备份旧版本
     if [ -f "$BINARY_PATH" ]; then
-	 systemctl stop hysteria-server.service
-	 mv "$BINARY_PATH" "${BACKUP_PATH}/hysteria.${DATE}"
+	    systemctl stop hysteria-server.service
+	    mv "$BINARY_PATH" "${BACKUP_PATH}/hysteria.${DATE}"
     fi
 
     # 替换为最新版本并重启服务
