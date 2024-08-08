@@ -7,7 +7,7 @@
 apt install jq
 ```
 
-##License  
+## License  
 
 MIT License  
 
