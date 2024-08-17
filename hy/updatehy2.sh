@@ -13,7 +13,7 @@ echo "UPDATE_INFO:$UPDATE_INFO"
 UPDATE_AVAILABLE=$(echo "$UPDATE_INFO" | grep "no update available")
 echo "UPDATE_AVAILABLE:$UPDATE_AVAILABLE"
 if [ -n "$UPDATE_AVAILABLE" ]; then
-  echo "没有更新可用"
+  echo "没有更新可用!!!"
   exit
 fi
 
