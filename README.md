@@ -7,6 +7,13 @@
 apt install jq
 ```
 
+## shell脚本加密  
+
+```js
+usage: encodeShell inputfile outputfile
+```
+
+
 ## License  
 
 MIT License  
